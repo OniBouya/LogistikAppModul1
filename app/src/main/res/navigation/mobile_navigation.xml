@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_login">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="de.codeyourapp.sqldemo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="de.codeyourapp.sqldemo.ui.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_sendungen"
+        android:name="de.codeyourapp.sqldemo.ui.sendungen.SendungenFragment"
+        android:label="Sendungen"
+        tools:layout="@layout/fragment_sendungen" />
+    <fragment
+        android:id="@+id/nav_fahrzeuge"
+        android:name="de.codeyourapp.sqldemo.ui.fahrzeuge.FahrzeugeFragment"
+        android:label="Fahrzeuge"
+        tools:layout="@layout/fragment_fahrzeuge" />
+    <fragment
+        android:id="@+id/nav_fahrer"
+        android:name="de.codeyourapp.sqldemo.ui.fahrer.FahrerFragment"
+        android:label="Fahrer"
+        tools:layout="@layout/fragment_fahrer" />
+    <fragment
+        android:id="@+id/nav_disposition"
+        android:name="de.codeyourapp.sqldemo.ui.disposition.DispositionFragment"
+        android:label="Disposition"
+        tools:layout="@layout/fragment_disposition" />
+    <fragment
+        android:id="@+id/nav_route"
+        android:name="de.codeyourapp.sqldemo.ui.route.RouteFragment"
+        android:label="Route"
+        tools:layout="@layout/fragment_route"/>
+
+</navigation>
